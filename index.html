@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="build/css/app.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  
+  <title>Frontend Mentor | Bookmark landing page</title>
+
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar">
+
+      <div class="navbar__container">
+        <figure class="navbar__picture">
+          <img src="images/logo-bookmark.svg" alt="Logo" class="navbar__img">
+        </figure>
+
+        <div class="navbar__nav">
+          <div class="navbar__menu">
+            <figure class="navbar__figure">
+              <img src="images/logo-bookmark-white.svg" alt="" class="navbar__img">
+            </figure>
+            <span class="navbar__close"><i class='bx bx-x navbar__icon' ></i></span>
+          </div>
+          <div class="navbar__links">
+            <a href="#" class="navbar__link ">Features</a>
+            <a href="#" class="navbar__link ">Pricing</a>
+            <a href="#" class="navbar__link ">Contact</a>
+            <a href="#" class="navbar__link navbar__link--cta ">Login</a>
+          </div>
+
+          <div class="navbar__social">
+            <i class='bx bxl-facebook-square' ></i>
+            <i class='bx bxl-twitter' ></i>
+          </div>
+        </div>
+        
+        <span class="navbar__hamburguer"><i class='bx bx-menu navbar__icon'></i></span>
+      </div>
+
+    </nav>
+
+    <section class="hero">
+
+      <div class="hero__illustration">
+        <figure class="hero__picture">
+          <img src="images/illustration-hero.svg" alt="" class="hero__img">
+        </figure>
+      </div>
+
+      <article class="hero__texts">
+        <h1 class="hero__heading">A Simple Bookmark Manager</h1>
+        <p class="hero__paragraph">A clean and simple interface to organize your favourite websites. Open a new 
+          browser tab and see your sites load instantly. Try it for free.</p>
+        <div class="hero__button">
+          <a href="#" class="hero__cta hero__cta--1">Get it on Chrome</a>
+          <a href="#" class="hero__cta hero__cta--2">Get it on Firefox</a>
+        </div>
+      </article>
+
+    </section>
+  </header>
+
+  <main class="main">
+    <section class="features">
+      <div class="features__heading">
+        <h2 class="features__title">Features</h2>
+        <p class="features__paragraph features__paragraph--main">Our aim is to make it quick and easy for you to access your favourite websites. 
+          Your bookmarks sync between your devices so you can access them on the go.</p>
+      </div>
+
+      <div class="features__tabs">
+        <ul class="features__items">
+          <li class="features__item active">Simple Bookmarking</li>
+          <li class="features__item">Speedy Searching</li>
+          <li class="features__item">Easy Sharing</li>
+        </ul>
+
+        <div class="features__content">
+          <div class="features__info active visible">
+            <figure class="features__picture">
+              <img src="images/illustration-features-tab-1.svg" alt="" class="features__img">
+            </figure>
+
+            <div class="features__texts">
+              <h2 class="features__title">Bookmark in one click</h2>
+              <p class="features__paragraph">Organize your bookmarks however you like. Our simple drag-and-drop interface 
+                gives you complete control over how you manage your favourite sites.</p>
+              <a href="#" class="features__cta">More Info</a>
+            </div>
+          </div>
+
+          <div class="features__info">
+            <figure class="features__picture">
+              <img src="images/illustration-features-tab-2.svg" alt="" class="features__img">
+            </figure>
+
+            <div class="features__texts">
+              <h2 class="features__title">Intelligent search</h2>
+              <p class="features__paragraph">Our powerful search feature will help you find saved sites in no time at all. 
+                No need to trawl through all of your bookmarks.</p>
+              <a href="#" class="features__cta">More Info</a>
+            </div>
+          </div>
+
+          <div class="features__info">
+            <figure class="features__picture">
+              <img src="images/illustration-features-tab-3.svg" alt="" class="features__img">
+            </figure>
+
+            <div class="features__texts">
+              <h2 class="features__title">Share your bookmarks</h2>
+              <p class="features__paragraph">Easily share your bookmarks and collections with others. Create a shareable 
+                link that you can send at the click of a button.</p>
+              <a href="#" class="features__cta">More Info</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <section class="download">
+      <div class="download__heading">
+        <h2 class="download__title download__title--main">Download the extension</h2>
+        <p class="download__paragraph">We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+          got a favourite you’d like us to prioritize.</p>
+      </div>
+
+      <div class="download__options">
+        <div class="download__option download__option--1">
+          <img src="images/logo-chrome.svg" alt="" class="download__img">
+          <h3 class="download__title">Add to Chrome</h3>
+          <p class="download__text">Minimum version 62</p>
+          <img src="images/bg-dots.svg" alt="" class="download__dots">
+          <a href="#" class="download__cta">Add & Install Extension</a>
+        </div>
+
+        <div class="download__option download__option--2">
+          <img src="images/logo-firefox.svg" alt="" class="download__img">
+          <h3 class="download__title">Add to Firefox</h3>
+          <p class="download__text">Minimum version 55</p>
+          <img src="images/bg-dots.svg" alt="" class="download__dots">
+          <a href="#" class="download__cta">Add & Install Extension</a>
+        </div>
+
+        <div class="download__option download__option--3">
+          <img src="images/logo-opera.svg" alt="" class="download__img">
+          <h3 class="download__title">Add to Opera</h3>
+          <p class="download__text">Minimum version 46</p>
+          <img src="images/bg-dots.svg" alt="" class="download__dots">
+          <a href="#" class="download__cta">Add & Install Extension</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq">
+      <div class="faq__heading">
+        <h2 class="faq__title">Frequently Asked Questions</h2>
+        <p class="faq__paragraph">Here are some of our FAQs. If you have any other questions you’d like 
+          answered please feel free to email us.</p>
+      </div>
+
+      <ul class="faq__list">
+
+        <li class="faq__item">
+          <div class="faq__question">
+            <p class="faq__name">What is Bookmark?</p>
+            <i class='bx bx-chevron-down faq__icon'></i>
+          </div>
+
+          <div class="faq__answer">
+            <p class="faq__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
+              justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+          </div>
+
+        </li>
+
+        <li class="faq__item">
+          <div class="faq__question">
+            <p class="faq__name">How can I request a new browser?</p>
+            <i class='bx bx-chevron-down faq__icon'></i>
+          </div>
+
+          <div class="faq__answer">
+            <p class="faq__content">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
+              Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, 
+              ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. 
+              Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+          </div>
+
+        </li>
+
+        <li class="faq__item">
+          <div class="faq__question">
+            <p class="faq__name">Is there a mobile app?</p>
+            <i class='bx bx-chevron-down faq__icon'></i>
+          </div>
+
+          <div class="faq__answer">
+            <p class="faq__content">Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
+              urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed 
+              sollicitudin ex et ultricies bibendum.</p>
+          </div>
+
+        </li>
+
+        <li class="faq__item">
+          <div class="faq__question">
+            <p class="faq__name">What about other Chromium browsers?</p>
+            <i class='bx bx-chevron-down faq__icon'></i>
+          </div>
+
+          <div class="faq__answer">
+            <p class="faq__content">Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
+              vitae neque eget nisl gravida pellentesque non ut velit.</p>
+          </div>
+
+        </li>
+      </ul>
+
+      <a href="#" class="faq__cta">More Info</a>
+
+
+    </section>
+
+    <section class="contact">
+      <div class="contact__container">
+        <p class="contact__stats">35,000+ already joined</p>
+        <h2 class="contact__heading">Stay up-to-date with what we’re doing</h2>
+  
+        <form action="#" class="contact__form">
+          <div class="contact__formgroup">
+            <input type="text" placeholder="Enter your email address" class="contact__input">
+            <i class='contact__icon bx bxs-info-circle' ></i>
+          </div>
+          
+          <input type="submit" value="Contact Us" class="contact__cta">
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <img src="images/logo-bookmark-white.svg" alt="Logo" class="footer__img">
+      <div class="footer__links">
+        <a href="#" class="footer__link">Features</a>
+        <a href="#" class="footer__link">Pricing</a>
+        <a href="#" class="footer__link">Contact</a>
+      </div>
+  
+      <div class="footer__social">
+        <i class='bx bxl-facebook-square' ></i>
+        <i class='bx bxl-twitter' ></i>
+      </div>
+    </div>
+  </footer>
+
+  <script src="build/js/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>
